@@ -7,6 +7,8 @@ public class DetectFalsePlatforms : MonoBehaviour
 
     void Update()
     {
-
+          Animator.SetBool("isHit", true);
+          Vector3.forward();
+    
     }
 }
